@@ -6,6 +6,7 @@
 }
 body {
   height: 100vh;
+  background-color: #e5e7eb;
 }
 
 /* Grid */
@@ -13,7 +14,7 @@ body {
   display: grid;
   height: 100%;
   grid-template-columns: 2fr 8fr;
-  grid-template-rows: 2fr 8fr;
+  grid-template-rows: 1fr 9fr;
 }
 /* header */
 .header {
@@ -22,6 +23,10 @@ body {
   display: grid;
   grid-template-columns: 6fr 4fr;
   grid-template-rows: repeat(2, 1fr);
+  background-color: #f8fafc;
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.548);
+  padding-left: 30px;
+  padding-right: 30px;
 }
 /* search bar */
 .con {
@@ -89,6 +94,18 @@ body {
 /* side bar */
 .sideBar {
   grid-row: 1 / 3;
+  background-color: #3b82f6;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
+  padding-left: 60px;
+}
+.sideBar > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 /* projects */
 .projects {

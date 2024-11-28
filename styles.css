@@ -53,6 +53,8 @@ body {
   border: none;
   background-color: #cbd5e1;
   padding: 10px;
+  font-size: 1em;
+  font-weight: 700;
 }
 /* user */
 .user {
@@ -90,6 +92,11 @@ body {
   font-size: 1em;
   background-color: #3b82f6;
   color: #f8fafc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button > button:hover {
+  background-color: #60a5fa;
 }
 /* side bar */
 .sideBar {
@@ -106,13 +113,26 @@ body {
   display: grid;
   gap: 20px;
 }
-a {
-  display: flex;
+
+.sideBar a {
+  display: grid;
+  grid-template-columns: 48px 9fr;
   align-items: center;
   gap: 20px;
   text-decoration: none;
   color: #f8fafc;
+  transition: 0.2s;
 }
+.sideBar a.aD:hover {
+  font-size: 1em;
+}
+.sideBar a:hover {
+  font-size: large;
+}
+.sideBar img {
+  justify-self: center;
+}
+
 .svgD {
   width: 3em;
 }

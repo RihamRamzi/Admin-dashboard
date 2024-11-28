@@ -22,7 +22,7 @@ body {
   grid-column: 2;
   display: grid;
   grid-template-columns: 6fr 4fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 90px);
   background-color: #f8fafc;
   box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.548);
   padding-left: 30px;
@@ -144,14 +144,28 @@ body {
 }
 /* myProjects */
 .myProjects {
-  width: 70%;
+  width: 60%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr;
+  margin-left: 15px;
+  padding-bottom: 50px;
+  row-gap: 20px;
+}
+.myProjects h2 {
+  align-self: flex-end;
+}
+.myProjects > div {
+  width: 90%;
+  height: 100%;
+  border: 1px solid;
+  justify-self: center;
+  align-self: center;
+  border-radius: 20px;
 }
 /* announcements */
 .announcements {
-  width: 30%;
+  width: 40%;
   height: 100%;
 }

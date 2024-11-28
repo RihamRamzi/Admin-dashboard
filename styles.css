@@ -140,4 +140,18 @@ body {
 .projects {
   grid-column: 2;
   grid-row: 2;
+  display: flex;
+}
+/* myProjects */
+.myProjects {
+  width: 70%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 1fr;
+}
+/* announcements */
+.announcements {
+  width: 30%;
+  height: 100%;
 }

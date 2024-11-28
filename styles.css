@@ -164,6 +164,39 @@ body {
   justify-self: center;
   align-self: center;
   border-radius: 20px;
+  background-color: #f8fafc;
+}
+.project {
+  display: grid;
+  grid-template-columns: 0.2fr 9.8fr;
+  overflow: hidden;
+}
+.lineColor {
+  background-color: #f59e0b;
+}
+.projectDetails {
+  grid-column: 2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.projectDetails span {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.projectDetails p {
+  font-size: 1em;
+  color: #4f5358;
+}
+.projectIcon {
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  margin-top: 20px;
+}
+.pSvg {
+  width: 1.5em;
 }
 /* announcements */
 .announcements {

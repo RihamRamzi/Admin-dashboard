@@ -141,6 +141,7 @@ body {
   grid-column: 2;
   grid-row: 2;
   display: flex;
+  overflow: hidden;
 }
 /* myProjects */
 .myProjects {
@@ -152,6 +153,8 @@ body {
   margin-left: 15px;
   padding-bottom: 50px;
   row-gap: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 .myProjects h2 {
   align-self: flex-end;
@@ -159,7 +162,7 @@ body {
 }
 .myProjects > div {
   width: 90%;
-  height: 100%;
+  height: max-content;
   border: 1px solid;
   justify-self: center;
   align-self: center;

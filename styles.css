@@ -173,7 +173,6 @@ body {
 .myProjects > div {
   width: 90%;
   height: max-content;
-  border: 1px solid;
   justify-self: center;
   align-self: center;
   border-radius: 20px;
@@ -200,7 +199,7 @@ body {
 }
 .projectDetails p {
   font-size: 1em;
-  color: #4f5358;
+  color: #7f848a;
 }
 .projectIcon {
   display: flex;
@@ -220,14 +219,27 @@ body {
   grid-template-rows: 1fr 4fr 1fr 4fr;
   padding-bottom: 50px;
   row-gap: 20px;
+  margin-top: 7px;
 }
 .announcements > div {
   height: 100%;
   width: 70%;
-  border: 1px solid;
   border-radius: 20px;
   align-self: center;
   margin-left: 20px;
+  background-color: #f8fafc;
+  padding: 30px;
+}
+.aCon span {
+  font-size: 15px;
+  font-weight: 800;
+}
+.aCon p {
+  font-size: 15px;
+  color: #7f848a;
+  margin-top: 2px;
+  border-bottom: 1px solid #7f848a;
+  padding-bottom: 15px;
 }
 .announcements h2 {
   align-self: flex-end;
